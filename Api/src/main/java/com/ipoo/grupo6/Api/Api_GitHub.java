@@ -74,7 +74,7 @@ package com.ipoo.grupo6.Api;
 			
 			String fecha=new SimpleDateFormat("yyyy-MM-dd").format(new Date());
 			
-			//link
+			//link.
 			String s=t.ejecutar("https://developer.github.com/v3/" , null);
 			System.out.println(s);
 		}
