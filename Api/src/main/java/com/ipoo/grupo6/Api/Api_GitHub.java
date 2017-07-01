@@ -28,7 +28,7 @@ package com.ipoo.grupo6.Api;
 		
 			try {
 				
-				String userCredentials = "Bearer conseguir token en instagram";
+				String userCredentials = "Bearer conseguir token en GitHub";
 		
 				con = (HttpURLConnection) new URL(url).openConnection();
 				
