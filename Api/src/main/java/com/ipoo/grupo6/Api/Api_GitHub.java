@@ -10,9 +10,9 @@ package com.ipoo.grupo6.Api;
 	import java.text.SimpleDateFormat;
 	import java.util.Date;
 
-	public class Api_Instagram {
+	public class Api_GitHub {
 		
-		public Api_Instagram(){
+		public Api_GitHub(){
 			
 		}
 		
@@ -28,7 +28,7 @@ package com.ipoo.grupo6.Api;
 		
 			try {
 				
-				String userCredentials = "Bearer conseguir token en GitHub";
+				String userCredentials = "Bearer conseguir token en instagram";
 		
 				con = (HttpURLConnection) new URL(url).openConnection();
 				
@@ -70,12 +70,12 @@ package com.ipoo.grupo6.Api;
 		}
 		
 		public static void main(String[] args){
-			Api_Instagram t=new Api_Instagram();
+			Api_GitHub t=new Api_GitHub();
 			
 			String fecha=new SimpleDateFormat("yyyy-MM-dd").format(new Date());
 			
 			//link
-			String s=t.ejecutar("https://developer.github.com/v3/" , null);
+			String s=t.ejecutar("https://www.instagram.com/developer/" , null);
 			System.out.println(s);
 		}
 
